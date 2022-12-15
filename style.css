@@ -8,13 +8,18 @@
 body {
     margin: 0;
     color: black;
+    background-color: #F7EFED;
+    background-image: url(images/plane.png);
+    background-repeat: no-repeat;
 }
 
 #wrapper {
     display: flex;
+    flex-direction: column;
     /* background-color: red; */
     width: 75%;
     margin: auto;
+    gap: 4.5rem;
 }
 
 #wrapper > nav {
@@ -72,3 +77,152 @@ body {
 #search-box > span {
     border-right: 1px solid;
 }
+
+#wrapper > article {
+    display: flex;
+    flex-direction: row;
+}
+
+#flavor-data {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.3rem;
+}
+
+#flavor-data > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.3rem;
+}
+
+#flavor-name {
+    font-weight: bold;
+    font-size: 3.8rem;
+}
+
+#flavor-desc {
+    font-size: 1.3rem;
+    opacity: 0.8;
+}
+
+#pack {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+}
+
+#add-to-cart {
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 50px;
+    padding: 0.3rem 1.5rem 0.3rem 0.3rem;
+    cursor: pointer;
+}
+
+#add-to-cart > div {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 209, 84);
+    width: 3.7rem;
+    height: 3.7rem;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-to-cart > div > img {
+    height: 50%;
+}
+
+#qtdy-control {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#qtdy {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    outline: none;
+    border: 2px solid rgb(255, 209, 84);
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+#plus, #minus {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2rem;
+    background-color: white;
+    box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.15);
+    transition: box-shadow 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+#plus:hover, #minus:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+#plus:active, #minus:active {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+#pack-img {
+    height: 30rem;
+    transform: rotate(-15deg);
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.7));
+}
+
+#bubbles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.7rem;
+}
+
+.bubble {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.3rem;
+}
+
+.bubble > div {
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.bubble > span {
+    font-weight: bold;
+}
+
+.bubble > div > img {
+    height: 50%;
+}
+
+.bubble:nth-child(1) > div {
+    background-color: #206456;
+}
+
+.bubble:nth-child(2) > div {
+    background-color: #D51037;
+}
+
+.bubble:nth-child(3) > div {
+    background-color: #FDB339;
+}
+
