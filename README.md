@@ -52,11 +52,11 @@ To get a local copy up and running follow these simple example steps.
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Clone the repo
    ```sh
    git clone https://github.com/blueycode/animated-doritos-landing-page.git
    ```
+2. Run a local server, like Live Server
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
