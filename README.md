@@ -9,7 +9,7 @@
     <em>A fantastic animated landing page featuring everyone's favorite chips. </em>
     <br />
     <br />
-    <a href="https://github.com/blueycode/animated-doritos-landing-page">View Demo</a>
+    <a href="https://blueycode.github.io/animated-doritos-landing-page/">View Demo</a>
     ·
     <a href="https://github.com/blueycode/animated-doritos-landing-page/issues">Report Bug</a>
     ·
