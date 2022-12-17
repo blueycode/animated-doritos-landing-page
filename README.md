@@ -76,12 +76,3 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Project Link: [https://github.com/blueycode/animated-doritos-landing-page](https://github.com/blueycode/animated-doritos-landing-page)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
