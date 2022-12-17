@@ -36,7 +36,7 @@ const animation1 = anime.timeline({
 // We'll also prevent the user to click in another package before the first animation ends
 animation1.add({
     targets: "#pack-img",
-    translateX: -1100,
+    translateX: -1200,
     rotate: "2deg",
     changeComplete: function(anim) {
         document.querySelector("#pack-img").src = "images/" + currentImg;
@@ -44,7 +44,7 @@ animation1.add({
 }).add({
     targets: "#pack-img",
     translateX: 0,
-    rotate: "-10deg"
+    rotate: "-15deg"
 });
 
 coolRanch.addEventListener("click", () => {

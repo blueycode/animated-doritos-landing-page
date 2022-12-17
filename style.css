@@ -16,10 +16,9 @@ body {
 #wrapper {
     display: flex;
     flex-direction: column;
-    /* background-color: red; */
     width: 75%;
     margin: auto;
-    gap: 5.3rem;
+    gap: 10vh;
 }
 
 #wrapper > nav {
@@ -81,6 +80,8 @@ body {
 #wrapper > article {
     display: flex;
     flex-direction: row;
+    height: 45vh;
+    margin-bottom: 19vh;
 }
 
 #flavor-data {
